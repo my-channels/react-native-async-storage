@@ -1,7 +1,2 @@
 before_install:
     - sh ./scripts/jitpack_install_environment.sh
-    - echo "Yarn intstall..."
-    - yarn install 
-
-install:
-    - echo "From root folder"
