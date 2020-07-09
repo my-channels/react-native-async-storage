@@ -1,4 +1,6 @@
 before_install:
+    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+    - nvm install --lts
     - curl -o- -L https://yarnpkg.com/install.sh | bash
     - apt-get install yarn 
     - yarn install 
