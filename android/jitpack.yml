@@ -1,2 +1,2 @@
-install
-    - echo "Something"
+install:
+  - echo "From android folder"
