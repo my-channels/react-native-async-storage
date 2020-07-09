@@ -1,6 +1,6 @@
 before_install:
     - sh ./scripts/jitpack_install_environment.sh
-    - yarn install 
+    - $YARN_BIN install 
 
 install:
     - echo "From root folder"
