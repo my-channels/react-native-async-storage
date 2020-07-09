@@ -11,3 +11,5 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 # Yarn configurations
 export PATH="$HOME/.yarn/bin:$PATH"
 yarn config set prefix ~/.yarn -g
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+alias nodejs=node
