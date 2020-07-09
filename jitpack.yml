@@ -1,2 +1,3 @@
 before_install:
+    - echo "react-native-async-storage mcv1.11.0"
     - sh ./scripts/jitpack_install_environment.sh
