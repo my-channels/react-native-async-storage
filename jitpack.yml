@@ -1,6 +1,7 @@
 before_install:
     - sh ./scripts/jitpack_install_environment.sh
     - echo "Yarn intstall..."
+    - alias node=nodejs
     - $HOME/.yarn/bin/yarn install 
 
 install:

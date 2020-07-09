@@ -6,3 +6,4 @@ export NVM_DIR="$HOME/.nvm"
 nvm install --lts
 curl -o- -L https://yarnpkg.com/install.sh | bash
 export YARN_BIN="$HOME/.yarn/bin/yarn"
+which node
