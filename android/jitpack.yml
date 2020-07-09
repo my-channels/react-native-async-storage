@@ -1,2 +1,5 @@
+build:
+  - yarn install
+
 install:
   - echo "From android folder"

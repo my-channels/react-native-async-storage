@@ -1,2 +1,6 @@
+before_install:
+    - apt-get install yarn 
+    - yarn install 
+
 install:
     - echo "From root folder"
